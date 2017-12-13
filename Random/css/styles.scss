@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
+
+
+$basic-color: #00cdcf;
+$second-color: #f7f7f7;
+$button-color: #009a9c;
+$font-stack: 'Barlow Semi Condensed',sans-serif;
+$letter-space: 0.25em;
+
+*{
+  text-align: center;
+  font-family: $font-stack;
+}
+
+
+html,
+body{
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+//-------------BANNER-------------------
+
+.banner{
+  width: 100%;
+  padding: 10em 5em;
+  background-color: $basic-color;
+  color: #fff;
+  margin: 0;
+
+
+  h1{
+    border-style: double solid;
+    border-width: 5px 1px;
+    border-color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 2em;
+    margin: auto;
+    font-weight: 300;
+    letter-spacing: $letter-space/2;
+  }
+
+  h2{
+    margin: 2em 1em;
+    font-weight: 300;
+    letter-spacing: $letter-space/2;
+
+  }
+
+  a{
+    background-color: $button-color;
+    color: inherit;
+    letter-spacing: $letter-space;
+    padding: 1em;
+
+  }
+
+  a:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-decoration: none;
+  }
+
+}
+
+
+//-------------FEATURES-------------------
+
+.features{
+  margin: 5em 0 3em;
+  letter-spacing: $letter-space;
+
+  h2{
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .row{
+    padding: 2em 3em;
+  }
+
+
+}
+
+  .box{
+    display: block;
+    border: 2px #eee solid;
+    padding: 3em;
+
+    i{
+      margin: auto 0 1em;
+    }
+
+
+
+  }
+
+
+
+//-------------GETSTARTED-------------------
+
+.get-started{
+  background-color: $second-color;
+  padding: 5em;
+
+  h2{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin: 0 0 2em;
+  }
+
+  a{
+    border: 1px rgba(123,123,123,0.6) solid;
+    border-radius: 3px;
+    padding: 1.5em;
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    font-size: 0.8em;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    color: #111;
+  }
+  a:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-decoration: none;
+    width: 51%;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+  }
+
+
+
+  i{
+    float: left;
+  }
+
+}
+
+
+
+//-------------FOOTER-------------------
+
+footer{
+  background-color: $second-color;
+  margin: 0;
+  padding: 0 0 2em;
+
+  hr{
+      margin: 0;
+  }
+
+  h4{
+    margin:3em 2em 2em;
+    letter-spacing: 0.25em;
+    font-size: 1em;
+    color: #555;
+  }
+
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 640px){
+
+  .banner{
+    padding: 3em 1em;
+
+    h1{
+      font-size: 2rem;
+      width: auto;
+      padding: 1em;
+    }
+
+    h2{
+      margin: 1em auto 2em;
+      font-size: 1.3em;
+    }
+
+    a{
+      width: 100%;
+    }
+  }
+
+
+
+
+//-------------GETSTARTED-------------------
+
+.get-started{
+  width: 100%;
+  padding: 5em 1em;
+
+  h2{
+    margin: 0 0 1.5em;
+  }
+
+  .login-buttons{
+    width: 100%;
+  }
+
+  a{
+    padding: 1em;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: 'Open Sans',sans-serif;
+  }
+
+  a:hover{
+    width: auto;
+  }
+
+  i{
+    padding: 0.2em auto;
+  }
+
+}
+
+
+
+
+
+//-------------FOOTER-------------------
+
+footer{
+
+  h4{
+    margin:2em 1em 1em;
+    font-size: 0.6em;
+
+  }
+
+}
+}
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 641px) and (max-device-width : 1024px){
+/* Styles */
+}

@@ -1,0 +1,213 @@
+$basic-color: #00cdcf;
+$second-color: #f7f7f7;
+$button-color: #009a9c;
+$font-stack: 'Barlow Semi Condensed',sans-serif;
+$letter-space: 0.25em;
+
+
+//-------------GENERAL-------------------
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container{
+  min-height: 100%;
+}
+
+.clear{
+  clear: both;
+  height: 60px;
+}
+
+
+
+//-------------NAV-------------------
+
+.headings{
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #eee;
+  // text-align: right;
+
+  .sub-heading{
+    font-size: 70%;
+    font-weight: 300;
+  }
+
+}
+
+.head-but{
+  text-align: right;
+  margin: 0.5em 0.5em;
+  i{
+    margin: 0 0.5em;
+  }
+}
+
+
+
+//-------------MAIN-------------------
+
+.collection{
+  margin: auto;
+  width: 95%;
+}
+
+.element{
+  background-color: $button-color;
+  margin: 2%;
+  max-width: 45%;
+  padding: 1em 2em;
+  border-radius: 10px;
+  color: #fff;
+
+  .ele-title{
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+
+  }
+
+  .hours-done{
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .icons{
+    margin: 0 0 0.5em 0;
+    text-align: center;
+    color: black;
+  }
+  .plus{
+    margin: 0;
+    padding: 0;
+  }
+  .minus{
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+}
+
+
+
+//-------------FOOTER-------------------
+
+footer{
+  background-color: $second-color;
+  height: 60px;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  hr{
+      margin: 0;
+  }
+
+  h4{
+    margin: 1em 2em;
+    letter-spacing: 0.25em;
+    font-size: 1em;
+    color: #555;
+  }
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-device-width : 1224px){
+  .element{
+    margin: 1%;
+    max-width: 30%;
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+
+    .ele-title{
+      font-weight: 600;
+      font-size: 1.5em;
+      text-align: center;
+
+    }
+
+    .hours-done{
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .icons{
+      margin: 0 0 0.5em 0;
+      text-align: center;
+      color: black;
+    }
+    .plus{
+      margin: 0;
+      padding: 0;
+    }
+    .minus{
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+  }
+}
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen  and (min-width : 1024px)  and (max-device-width : 1224px) {
+  .element{
+  margin: 6%;
+  padding: 5%;
+}
+}
+
+/* Smartphones ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px){
+  .element{
+    margin: 1%;
+    width: 50%;
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+
+    .ele-title{
+      font-weight: 600;
+      font-size: 1.5em;
+      text-align: center;
+
+    }
+
+    .hours-done{
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .icons{
+      margin: 0 0 0.5em 0;
+      text-align: center;
+      color: black;
+    }
+    .plus{
+      margin: 0;
+      padding: 0;
+    }
+    .minus{
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+  }
+}
+ .sub-heading{
+   word-wrap: break-word;
+ }

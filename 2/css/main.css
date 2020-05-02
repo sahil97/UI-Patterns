@@ -64,3 +64,88 @@ textarea {
 .knowmore-btn{
   box-shadow: 0 3px 15px 0 rgba(0,0,0,.25);
 }
+
+.custom-card img{
+  max-height: 50px;
+}
+
+.place-video{
+  box-shadow: 0 3px 15px 0 rgba(0,0,0,.25);
+  border-radius: 5px;
+}
+
+.pricing-card{
+  width: 90%;
+  box-shadow: 0px 0px 80px 0px rgba(0,0,0,.1);
+}
+
+.pricing-card h2{
+  letter-spacing: 0.1rem;
+  color:#808080
+}
+
+.faq h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #364655;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faq p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #627382;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.footer{
+  padding: 50px 0 50px 0;
+  background: #2d2d86;
+}
+
+.footer ul{
+  list-style-type: none;
+  margin: 10px 0 5px 0;
+  padding-left: 0;
+}
+
+.footer .footer-sub li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 0;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  color: #D8D8D8;
+}
+
+.footer .footer-sub li a {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  color: #364655;
+  color: #D8D8D8;
+}
+
+.footer h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #364655;
+  color: #FFF;
+  letter-spacing: 0;
+  line-height: 1.4;
+  max-width: 320px;
+  margin-bottom: 10px;
+}

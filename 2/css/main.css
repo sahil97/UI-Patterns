@@ -59,6 +59,7 @@ textarea {
 
 .main-header{
   font-weight: lighter;
+  text-align: center;
 }
 
 .knowmore-btn{
@@ -69,10 +70,20 @@ textarea {
   max-height: 50px;
 }
 
-.place-video{
-  box-shadow: 0 3px 15px 0 rgba(0,0,0,.25);
-  border-radius: 5px;
+
+.cards-coll .card{
+  margin: auto;
+  width: 20rem;
+  margin-top: 2em;
 }
+
+.cards-coll .card img{
+  max-height: 144px;
+  margin-top: 2em;
+
+}
+
+/* Pricing */
 
 .pricing-card{
   width: 90%;
@@ -83,6 +94,8 @@ textarea {
   letter-spacing: 0.1rem;
   color:#808080
 }
+
+/* Faq */
 
 .faq h2{
     font-size: 15px;
@@ -102,6 +115,8 @@ textarea {
     margin-top: 30px;
     padding-bottom: 40px;
 }
+
+/* Footer */
 
 .footer{
   padding: 50px 0 50px 0;
@@ -148,4 +163,83 @@ textarea {
   line-height: 1.4;
   max-width: 320px;
   margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 768px){
+  .main-header{
+    text-align: left;
+    margin: 4em 0 3em;
+    padding: 0 2em;
+  }
+
+  .cards-coll .card{
+    width: 30%;
+    margin-top: 2em;
+  }
+
+  .more-desc img{
+    padding: 2em;
+  }
+
+  .more-desc .desc {
+    padding-top: 2em;
+  }
+
+  .desc:last-child{
+    padding-top: 4em;
+  }
+
+  .custom-card{
+    width: 33%;
+  }
+
+  .less-width{
+    max-width: 540px;
+  }
+
+  .pricing-card{
+    width: 27%;
+  }
+
+  .pricing-card:nth-child(2){
+    margin-top: 1em !important;
+  }
+
+  .client-section img{
+    max-width: 100px;
+  }
+
+  
+  .footer .social li{
+    display: inline;
+  }
+
+  .footer .footer-nav li {
+    
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+  .footer .footer-nav li a {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #364655;
+    color: #D8D8D8;
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+
+  .footer .f-mail {
+    margin: 5px 5px 0 0;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #364655;
+    color: #D8D8D8;
+    line-height: 1.6;
+  }
+
 }

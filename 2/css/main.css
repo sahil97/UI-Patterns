@@ -5,6 +5,10 @@ html {
   font-family: font-family: 'Montserrat';
 }
 
+*:focus{
+  outline:0;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -166,6 +170,31 @@ textarea {
   margin-bottom: 10px;
 }
 
+.navbar{
+  transition: 0.5s all ease;
+}
+
+.navbar-nav{
+  transition: 0.5s all ease;
+}
+
+.navbar.past-main {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 255, 0.99) !important;
+	-webkit-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+	-moz-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+	box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+}
+
+.hero{
+  padding: 50px 0 50px 0;
+}
+
+.more-desc img{
+  box-shadow: 10px 10px 15px 0 rgba(0,0,0,.05);
+  box-sizing: border-box;
+}
 
 @media only screen and (min-width: 768px){
   .main-header{
@@ -174,24 +203,22 @@ textarea {
     padding: 0 2em;
   }
 
+  .more-desc img{
+    
+  }
+
   .cards-coll .card{
     width: 30%;
     margin-top: 2em;
   }
 
-  .more-desc img{
-    margin: 2em;
-    box-shadow: 10px 10px 15px 0 rgba(0,0,0,.05);
-    box-sizing: border-box;
-  }
-
   .more-desc .desc {
     padding-top: 2em;
   }
-
+/* 
   .desc:last-child{
     padding-top: 4em;
-  }
+  } */
 
   .custom-card{
     width: 33%;

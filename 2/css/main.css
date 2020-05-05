@@ -2,6 +2,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: font-family: 'Montserrat';
 }
 
 ::-moz-selection {
@@ -179,7 +180,9 @@ textarea {
   }
 
   .more-desc img{
-    padding: 2em;
+    margin: 2em;
+    box-shadow: 10px 10px 15px 0 rgba(0,0,0,.05);
+    box-sizing: border-box;
   }
 
   .more-desc .desc {
@@ -242,4 +245,10 @@ textarea {
     line-height: 1.6;
   }
 
+}
+
+@media only screen and (min-width: 1280px){
+  .custom-card{
+    width: 27%;
+  }
 }
